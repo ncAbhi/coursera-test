@@ -73,3 +73,10 @@ var firstLetter = names[i].charAt(0).toLowerCase();
   }
 }
 })();
+
+var max=[1,2,3];
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
+console.log(+max);
